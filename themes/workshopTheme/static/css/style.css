@@ -50,10 +50,10 @@ main {
     padding: 2ch;
     max-width: 65ch;
     overflow: hidden;
-    hyphens: auto;
 }
 
-p {
+p, aside {
+    hyphens: auto;
     font-weight: normal;
 	line-height: 1.5em;
 	margin-top: 2ch;
