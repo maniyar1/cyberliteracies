@@ -1,0 +1,10 @@
+<head>
+    <meta name="viewport" content="width=device-width">
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title> {{.Title}} </title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ .Description }}">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="canonical" href="{{ .Permalink }}">
+</head>

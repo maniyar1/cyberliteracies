@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <main>
+    <article>
+    <h1 class="title">{{ .Title }}</h1>
+
+    <div class="subtitle">
+        <time datetime='{{dateFormat "2006-01-02T15:04:05Z07:00" .Date}}'> {{dateFormat "Jan 2, 2006" .Date }}</time> &ndash;
+        Mani Kamali &ndash;
+        <time datetime="PT0H{{.ReadingTime}}M">
+          {{ .ReadingTime }} minute read
+        </time>
+    </div>
+
+    <nav>
+        {{ .TableOfContents }}
+    </nav>
+
+    {{  .Content }}
+    </article>
+    </main>
+
+{{ end }}
