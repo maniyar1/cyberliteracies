@@ -50,6 +50,7 @@ main {
     padding: 2ch;
     max-width: 65ch;
     overflow: hidden;
+    hyphens: auto;
 }
 
 p {
