@@ -1,0 +1,3 @@
+[submodule "themes/ManiHugoTheme"]
+	path = themes/ManiHugoTheme
+	url = git@github.com:maniyar1/ManiHugoTheme.git

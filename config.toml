@@ -1,4 +1,4 @@
 baseURL = "http://cyberliteracies.org/"
 languageCode = "en-us"
 title = "Cyber Literacies"
-theme = "workshopTheme"
+theme = "ManiHugoTheme"
